@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { UserData, CareerRecommendation, CareerDetails } from '../types';
 
-const ai = import.meta.env.VITE_API_KEY;
+const ai = import.meta.env.API_KEY;
 
 
 const careerRecommendationSchema = {
